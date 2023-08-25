@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Archivo', sans-serif;
+}
+
+body{
+    background-color: #f9eef9;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 30px 16px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container-back{
+    padding: 8px 16px;
+    border: 1px solid #909090;
+    border-radius: 8px;
+}
+
+main{
+    padding: 0 16px;
+    padding-bottom: 50px;
+}
+
+.container-info--form h2{
+    font-size: 2.8rem;
+    margin-bottom: 16px;
+}
+
+.container-info--form ul{
+    list-style: none;
+}
+
+.container-info--form ul li{
+    padding-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.container-info--form .emoji {
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.formulario form{
+    background-color: #ffff;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.formulario form label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.formulario form input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #c1c1c1;
+    border-radius: 8px;
+}
+
+.container-check{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.formulario form .check{
+    width: 40px;
+    margin: 0;
+}
+
+.container-check label a{
+    color: #664efc;
+}
+
+.container-check label a:hover{
+    color: #260dc8;
+}
+
+.formulario form button{
+    width: 100%;
+    height: 50px;
+    background-color: #664efc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+.formulario form button:hover{
+    background-color: #260dc8;
+}
+
+@media (min-width: 700px){
+    body{
+        padding: 0 75px;
+    }
+}
+
+@media (min-width: 1000px){
+    main{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+}

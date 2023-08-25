@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="Assets/Logo.svg" alt="logo">
+            </div>
+            <div class="container-back">
+                <a href="index.html"><img src="Assets/Back Arrow.svg" alt="regresar al home"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-info--form">
+            <h2>Create your personalized feed</h2>
+            <ul>
+                <li><span class="emoji">🎈</span><b>Over 20 resources. </b>With resourcew ranging from Reddit to IndieHackers, we´ve got all your needs covered.</li>
+                <li><span class="emoji">🗞️</span><b>Delivery weekly. </b>Every week at exactly Tuesday 12:00 P.M EST - expect a value-packed digest right in your email.</li>
+                <li><span class="emoji">💡</span><b>Unlimited ideas. </b>With all the ideas you´ll be reading about, what´s sropping you from creating a sustainable startup.</li>
+            </ul>
+        </section>
+        <section class="formulario">
+            <form action="#">
+                <h2>Create your IndieBrew Account</h2>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="john@example.com">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="At least 8 characters">
+                <div class="container-check">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="check">
+                    <label for="checkbox" >By creating an account on IndieBrew, you agree to the <a href="#">Terms & Conditions</a></label>
+                </div>
+                <button type="submit">Create an Account</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
